@@ -1,5 +1,3 @@
-const { Player } = require("discord-music-player");
-const Bot = require('../../Bot');
+const bot = require('../../index');
 
-const player = new Player(Bot.client);
-client.player = player;
+const player = bot.player;
